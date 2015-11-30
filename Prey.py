@@ -127,7 +127,7 @@ class Prey:
         while not path:
             testing_minimal_safety -= 2
             path = self.AStar(prey_pos, safest_point, self.objects, testing_minimal_safety)
-            print testing_minimal_safety
+            #print(testing_minimal_safety)
 
 
         # === Return the movement to get on that path
